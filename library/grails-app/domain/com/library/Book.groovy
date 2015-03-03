@@ -14,5 +14,12 @@ String toString(){
 }
 
     static constraints = {
+
+	title()
+	author maxSize: 250
+	isbn()
+	dateBorrowed()
+	returnDate()
+	student()
     }
 }

@@ -1,4 +1,4 @@
-package com/library
+package com.library
 
 class Library {
 
@@ -15,5 +15,13 @@ String toString(){
 }
 
     static constraints = {
+
+	location()
+	openingHours()
+	book maxSize:2000
+	student()
+	librarian()
+
+
     }
 }

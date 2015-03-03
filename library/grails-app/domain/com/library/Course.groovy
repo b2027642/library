@@ -9,10 +9,16 @@ class Course {
 	String description
 	
 	String toString(){
-	"$title,$code,$depatment"
+	"$title,$code,$department"
 }
 
     static constraints = {
+
+	title()
+	code()
+	tutor()
+	department()
+	description maxSize:5000
 
 	
     }

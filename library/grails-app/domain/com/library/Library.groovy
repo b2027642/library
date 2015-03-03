@@ -15,5 +15,13 @@ String toString(){
 }
 
     static constraints = {
+
+	location()
+	openingHours()
+	book maxSize:2000
+	student()
+	librarian()
+
+
     }
 }

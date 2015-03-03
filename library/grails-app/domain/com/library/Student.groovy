@@ -11,5 +11,10 @@ class Student {
 	"$name,$email,$studentId,$course"}
 
     static constraints = {
+	
+	name()
+	email()
+	studentId()
+	course()
     }
 }

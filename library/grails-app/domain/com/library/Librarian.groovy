@@ -16,5 +16,12 @@ String toString(){
 }
 
     static constraints = {
+
+	name()
+	email()
+	telephone()
+	userName()
+	password()
+	
     }
 }
