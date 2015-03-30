@@ -2,7 +2,6 @@ package com.library
 
 class Librarian {
 
-
 	String name
 	String email
 	String userName
@@ -19,8 +18,10 @@ String toString(){
 
 	name()
 	email()
+	telephone()
 	userName()
 	password()
-	telephone()
+
+	
     }
 }
