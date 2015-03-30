@@ -7,10 +7,9 @@ class Course {
 	String tutor
 	String department
 	String description
+
 	
-	String toString(){
-	"$title,$code,$department"
-}
+	String toString(){"$title,$code,$department"}
 
     static constraints = {
 

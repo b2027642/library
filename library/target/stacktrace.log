@@ -1482,3 +1482,2453 @@ Possible solutions: department
 	at java.lang.String.valueOf(String.java:2847)
 	at java.lang.StringBuilder.append(StringBuilder.java:128)
 	... 7 more
+2015-03-03 01:51:54,952 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [bytitle] for class [class com.library.Course]
+	at org.codehaus.groovy.grails.commons.DefaultGrailsDomainClass.getPropertyByName(DefaultGrailsDomainClass.java:665)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractClausedStaticPersistentMethod$GrailsMethodExpression.setArguments(AbstractClausedStaticPersistentMethod.java:140)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractClausedStaticPersistentMethod.doInvokeInternal(AbstractClausedStaticPersistentMethod.java:455)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractClausedStaticPersistentMethod.doInvokeInternal(AbstractClausedStaticPersistentMethod.java:418)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractStaticPersistentMethod.invoke(AbstractStaticPersistentMethod.java:79)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractStaticPersistentMethod.invoke(AbstractStaticPersistentMethod.java:72)
+	at org.grails.datastore.gorm.finders.FinderMethod$invoke$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
+	at com.library.Course.$static_methodMissing(Course.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeStaticMissingMethod(MetaClassImpl.java:1493)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1481)
+	at groovy.lang.ExpandoMetaClass.invokeStaticMethod(ExpandoMetaClass.java:1123)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:50)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1081)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:417)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:60)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:78)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:110)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-03-03 01:51:54,959 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [bytitle] for class [class com.library.Course]
+	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:16)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-03-03 01:51:54,959 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [bytitle] for class [class com.library.Course]
+	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:16)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-03-03 01:51:54,959 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [bytitle] for class [class com.library.Course]
+	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:16)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-03-03 01:51:54,959 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [bytitle] for class [class com.library.Course]
+	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:16)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-03-03 01:51:54,959 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [bytitle] for class [class com.library.Course]
+	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:16)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-03-03 02:33:10,112 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: grails.util.Environment.printIn() is applicable for argument types: (org.codehaus.groovy.runtime.GStringImpl) values: [An error occured whilst creating course1:Field error in object 'com.library.Course' on field 'student': rejected value [null]; codes [com.library.Course.student.nullable.error.com.library.Course.student,com.library.Course.student.nullable.error.student,com.library.Course.student.nullable.error.com.library.Student,com.library.Course.student.nullable.error,course.student.nullable.error.com.library.Course.student,course.student.nullable.error.student,course.student.nullable.error.com.library.Student,course.student.nullable.error,com.library.Course.student.nullable.com.library.Course.student,com.library.Course.student.nullable.student,com.library.Course.student.nullable.com.library.Student,com.library.Course.student.nullable,course.student.nullable.com.library.Course.student,course.student.nullable.student,course.student.nullable.com.library.Student,course.student.nullable,nullable.com.library.Course.student,nullable.student,nullable.com.library.Student,nullable]; arguments [student,class com.library.Course]; default message [Property [{0}] of class [{1}] cannot be null]]
+Possible solutions: println(), println(java.lang.Object), println(java.io.PrintWriter), print(java.lang.Object), print(java.io.PrintWriter), printf(java.lang.String, [Ljava.lang.Object;)
+	at grails.util.Environment$EnvironmentBlockEvaluator.methodMissing(Environment.java:382)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:933)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1256)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1209)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:807)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at groovy.lang.MetaClassImpl.invokeMethodOnGroovyObject(MetaClassImpl.java:1272)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1189)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:807)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at BootStrap$_closure1.invokeMethod(BootStrap.groovy)
+	at groovy.lang.MetaClassImpl.invokeMethodOnGroovyObject(MetaClassImpl.java:1272)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1189)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at BootStrap$_closure1_closure3.doCall(BootStrap.groovy:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at BootStrap$_closure1_closure3.call(BootStrap.groovy)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at BootStrap$_closure1_closure3.call(BootStrap.groovy)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1379)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1372)
+	at org.codehaus.groovy.runtime.dgm$149.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1081)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:417)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:60)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:78)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:110)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-03-03 02:33:10,141 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: grails.util.Environment.printIn() is applicable for argument types: (org.codehaus.groovy.runtime.GStringImpl) values: [An error occured whilst creating course1:Field error in object 'com.library.Course' on field 'student': rejected value [null]; codes [com.library.Course.student.nullable.error.com.library.Course.student,com.library.Course.student.nullable.error.student,com.library.Course.student.nullable.error.com.library.Student,com.library.Course.student.nullable.error,course.student.nullable.error.com.library.Course.student,course.student.nullable.error.student,course.student.nullable.error.com.library.Student,course.student.nullable.error,com.library.Course.student.nullable.com.library.Course.student,com.library.Course.student.nullable.student,com.library.Course.student.nullable.com.library.Student,com.library.Course.student.nullable,course.student.nullable.com.library.Course.student,course.student.nullable.student,course.student.nullable.com.library.Student,course.student.nullable,nullable.com.library.Course.student,nullable.student,nullable.com.library.Student,nullable]; arguments [student,class com.library.Course]; default message [Property [{0}] of class [{1}] cannot be null]]
+Possible solutions: println(), println(java.lang.Object), println(java.io.PrintWriter), print(java.lang.Object), print(java.io.PrintWriter), printf(java.lang.String, [Ljava.lang.Object;)
+	at grails.util.Environment$EnvironmentBlockEvaluator.methodMissing(Environment.java:382)
+	at BootStrap$_closure1_closure3.doCall(BootStrap.groovy:22)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:21)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-03-03 02:33:10,170 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: grails.util.Environment.printIn() is applicable for argument types: (org.codehaus.groovy.runtime.GStringImpl) values: [An error occured whilst creating course1:Field error in object 'com.library.Course' on field 'student': rejected value [null]; codes [com.library.Course.student.nullable.error.com.library.Course.student,com.library.Course.student.nullable.error.student,com.library.Course.student.nullable.error.com.library.Student,com.library.Course.student.nullable.error,course.student.nullable.error.com.library.Course.student,course.student.nullable.error.student,course.student.nullable.error.com.library.Student,course.student.nullable.error,com.library.Course.student.nullable.com.library.Course.student,com.library.Course.student.nullable.student,com.library.Course.student.nullable.com.library.Student,com.library.Course.student.nullable,course.student.nullable.com.library.Course.student,course.student.nullable.student,course.student.nullable.com.library.Student,course.student.nullable,nullable.com.library.Course.student,nullable.student,nullable.com.library.Student,nullable]; arguments [student,class com.library.Course]; default message [Property [{0}] of class [{1}] cannot be null]]
+Possible solutions: println(), println(java.lang.Object), println(java.io.PrintWriter), print(java.lang.Object), print(java.io.PrintWriter), printf(java.lang.String, [Ljava.lang.Object;)
+	at grails.util.Environment$EnvironmentBlockEvaluator.methodMissing(Environment.java:382)
+	at BootStrap$_closure1_closure3.doCall(BootStrap.groovy:22)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:21)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-03-03 02:33:10,183 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: grails.util.Environment.printIn() is applicable for argument types: (org.codehaus.groovy.runtime.GStringImpl) values: [An error occured whilst creating course1:Field error in object 'com.library.Course' on field 'student': rejected value [null]; codes [com.library.Course.student.nullable.error.com.library.Course.student,com.library.Course.student.nullable.error.student,com.library.Course.student.nullable.error.com.library.Student,com.library.Course.student.nullable.error,course.student.nullable.error.com.library.Course.student,course.student.nullable.error.student,course.student.nullable.error.com.library.Student,course.student.nullable.error,com.library.Course.student.nullable.com.library.Course.student,com.library.Course.student.nullable.student,com.library.Course.student.nullable.com.library.Student,com.library.Course.student.nullable,course.student.nullable.com.library.Course.student,course.student.nullable.student,course.student.nullable.com.library.Student,course.student.nullable,nullable.com.library.Course.student,nullable.student,nullable.com.library.Student,nullable]; arguments [student,class com.library.Course]; default message [Property [{0}] of class [{1}] cannot be null]]
+Possible solutions: println(), println(java.lang.Object), println(java.io.PrintWriter), print(java.lang.Object), print(java.io.PrintWriter), printf(java.lang.String, [Ljava.lang.Object;)
+	at grails.util.Environment$EnvironmentBlockEvaluator.methodMissing(Environment.java:382)
+	at BootStrap$_closure1_closure3.doCall(BootStrap.groovy:22)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:21)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-03-03 02:33:10,215 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: grails.util.Environment.printIn() is applicable for argument types: (org.codehaus.groovy.runtime.GStringImpl) values: [An error occured whilst creating course1:Field error in object 'com.library.Course' on field 'student': rejected value [null]; codes [com.library.Course.student.nullable.error.com.library.Course.student,com.library.Course.student.nullable.error.student,com.library.Course.student.nullable.error.com.library.Student,com.library.Course.student.nullable.error,course.student.nullable.error.com.library.Course.student,course.student.nullable.error.student,course.student.nullable.error.com.library.Student,course.student.nullable.error,com.library.Course.student.nullable.com.library.Course.student,com.library.Course.student.nullable.student,com.library.Course.student.nullable.com.library.Student,com.library.Course.student.nullable,course.student.nullable.com.library.Course.student,course.student.nullable.student,course.student.nullable.com.library.Student,course.student.nullable,nullable.com.library.Course.student,nullable.student,nullable.com.library.Student,nullable]; arguments [student,class com.library.Course]; default message [Property [{0}] of class [{1}] cannot be null]]
+Possible solutions: println(), println(java.lang.Object), println(java.io.PrintWriter), print(java.lang.Object), print(java.io.PrintWriter), printf(java.lang.String, [Ljava.lang.Object;)
+	at grails.util.Environment$EnvironmentBlockEvaluator.methodMissing(Environment.java:382)
+	at BootStrap$_closure1_closure3.doCall(BootStrap.groovy:22)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:21)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-03-03 02:33:10,228 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: grails.util.Environment.printIn() is applicable for argument types: (org.codehaus.groovy.runtime.GStringImpl) values: [An error occured whilst creating course1:Field error in object 'com.library.Course' on field 'student': rejected value [null]; codes [com.library.Course.student.nullable.error.com.library.Course.student,com.library.Course.student.nullable.error.student,com.library.Course.student.nullable.error.com.library.Student,com.library.Course.student.nullable.error,course.student.nullable.error.com.library.Course.student,course.student.nullable.error.student,course.student.nullable.error.com.library.Student,course.student.nullable.error,com.library.Course.student.nullable.com.library.Course.student,com.library.Course.student.nullable.student,com.library.Course.student.nullable.com.library.Student,com.library.Course.student.nullable,course.student.nullable.com.library.Course.student,course.student.nullable.student,course.student.nullable.com.library.Student,course.student.nullable,nullable.com.library.Course.student,nullable.student,nullable.com.library.Student,nullable]; arguments [student,class com.library.Course]; default message [Property [{0}] of class [{1}] cannot be null]]
+Possible solutions: println(), println(java.lang.Object), println(java.io.PrintWriter), print(java.lang.Object), print(java.io.PrintWriter), printf(java.lang.String, [Ljava.lang.Object;)
+	at grails.util.Environment$EnvironmentBlockEvaluator.methodMissing(Environment.java:382)
+	at BootStrap$_closure1_closure3.doCall(BootStrap.groovy:22)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:21)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-03-30 15:59:32,580 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='"Web Systems Design, WSD2121, Computing'
+|      |         |
+|      |         false
+|      |         21 differences (46% similarity)
+|      |         (-)Web Systems Design(--------------------)
+|      |         (")Web Systems Design(, WSD2121, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 15:59:32,619 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='"Web Systems Design, WSD2121, Computing'
+|      |         |
+|      |         false
+|      |         21 differences (46% similarity)
+|      |         (-)Web Systems Design(--------------------)
+|      |         (")Web Systems Design(, WSD2121, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 15:59:32,630 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='"Web Systems Design, WSD2121, Computing'
+|      |         |
+|      |         false
+|      |         21 differences (46% similarity)
+|      |         (-)Web Systems Design(--------------------)
+|      |         (")Web Systems Design(, WSD2121, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 15:59:32,630 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='"Web Systems Design, WSD2121, Computing'
+|      |         |
+|      |         false
+|      |         21 differences (46% similarity)
+|      |         (-)Web Systems Design(--------------------)
+|      |         (")Web Systems Design(, WSD2121, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 15:59:32,671 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='"Web Systems Design, WSD2121, Computing'
+|      |         |
+|      |         false
+|      |         21 differences (46% similarity)
+|      |         (-)Web Systems Design(--------------------)
+|      |         (")Web Systems Design(, WSD2121, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 15:59:32,671 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='"Web Systems Design, WSD2121, Computing'
+|      |         |
+|      |         false
+|      |         21 differences (46% similarity)
+|      |         (-)Web Systems Design(--------------------)
+|      |         (")Web Systems Design(, WSD2121, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 16:02:36,374 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD2121,Computing'
+|      |         |
+|      |         false
+|      |         18 differences (50% similarity)
+|      |         Web Systems Design(------------------)
+|      |         Web Systems Design(,WSD2121,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 16:02:36,407 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD2121,Computing'
+|      |         |
+|      |         false
+|      |         18 differences (50% similarity)
+|      |         Web Systems Design(------------------)
+|      |         Web Systems Design(,WSD2121,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 16:02:36,412 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD2121,Computing'
+|      |         |
+|      |         false
+|      |         18 differences (50% similarity)
+|      |         Web Systems Design(------------------)
+|      |         Web Systems Design(,WSD2121,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 16:02:36,412 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD2121,Computing'
+|      |         |
+|      |         false
+|      |         18 differences (50% similarity)
+|      |         Web Systems Design(------------------)
+|      |         Web Systems Design(,WSD2121,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 16:02:36,463 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD2121,Computing'
+|      |         |
+|      |         false
+|      |         18 differences (50% similarity)
+|      |         Web Systems Design(------------------)
+|      |         Web Systems Design(,WSD2121,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 16:02:36,463 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD2121,Computing'
+|      |         |
+|      |         false
+|      |         18 differences (50% similarity)
+|      |         Web Systems Design(------------------)
+|      |         Web Systems Design(,WSD2121,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 16:05:59,951 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 16:05:59,977 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 16:05:59,989 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 16:05:59,990 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 16:06:00,046 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 16:06:00,047 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:25)
+2015-03-30 16:11:55,219 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (48% similarity)
+|      |         Web Systems Design(-------------------)
+|      |         Web Systems Design(, WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 16:11:55,258 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (48% similarity)
+|      |         Web Systems Design(-------------------)
+|      |         Web Systems Design(, WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 16:11:55,264 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (48% similarity)
+|      |         Web Systems Design(-------------------)
+|      |         Web Systems Design(, WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 16:11:55,264 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (48% similarity)
+|      |         Web Systems Design(-------------------)
+|      |         Web Systems Design(, WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 16:11:55,309 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (48% similarity)
+|      |         Web Systems Design(-------------------)
+|      |         Web Systems Design(, WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 16:11:55,325 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (48% similarity)
+|      |         Web Systems Design(-------------------)
+|      |         Web Systems Design(, WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 16:16:26,671 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 16:16:26,694 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 16:16:26,700 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 16:16:26,700 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 16:16:26,748 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 16:16:26,758 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 16:27:56,582 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 16:27:56,618 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 16:27:56,630 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 16:27:56,631 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 16:27:56,684 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 16:27:56,685 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 16:37:26,161 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:22)
+2015-03-30 16:37:26,193 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:22)
+2015-03-30 16:37:26,207 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:22)
+2015-03-30 16:37:26,207 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:22)
+2015-03-30 16:37:26,300 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:22)
+2015-03-30 16:37:26,301 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:22)
+2015-03-30 16:52:36,494 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 16:52:36,514 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 16:52:36,529 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 16:52:36,533 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 16:52:36,585 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 16:52:36,589 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 16:58:09,350 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 16:58:09,378 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 16:58:09,385 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 16:58:09,385 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 16:58:09,479 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 16:58:09,479 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:05:04,962 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:05:04,978 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:05:04,983 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:05:04,983 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:05:05,016 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:05:05,016 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:06:50,790 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:06:50,822 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:06:50,823 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:06:50,827 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:06:50,865 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:06:50,865 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:07:49,774 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+library.toString()=='Sheffield,C# for dummies,David Green,Tom Daily'
+|       |         |
+|       |         false
+|       |         3 differences (93% similarity)
+|       |         Sheffield,( )C# for dummies,( )David Green,( )Tom Daily
+|       |         Sheffield,(-)C# for dummies,(-)David Green,(-)Tom Daily
+|       Sheffield, C# for dummies, David Green, Tom Daily
+Sheffield, C# for dummies, David Green, Tom Daily
+
+	at com.library.LibrarySpec.test toString(LibrarySpec.groovy:25)
+2015-03-30 17:07:49,784 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+library.toString()=='Sheffield,C# for dummies,David Green,Tom Daily'
+|       |         |
+|       |         false
+|       |         3 differences (93% similarity)
+|       |         Sheffield,( )C# for dummies,( )David Green,( )Tom Daily
+|       |         Sheffield,(-)C# for dummies,(-)David Green,(-)Tom Daily
+|       Sheffield, C# for dummies, David Green, Tom Daily
+Sheffield, C# for dummies, David Green, Tom Daily
+
+	at com.library.LibrarySpec.test toString(LibrarySpec.groovy:25)
+2015-03-30 17:07:49,787 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+library.toString()=='Sheffield,C# for dummies,David Green,Tom Daily'
+|       |         |
+|       |         false
+|       |         3 differences (93% similarity)
+|       |         Sheffield,( )C# for dummies,( )David Green,( )Tom Daily
+|       |         Sheffield,(-)C# for dummies,(-)David Green,(-)Tom Daily
+|       Sheffield, C# for dummies, David Green, Tom Daily
+Sheffield, C# for dummies, David Green, Tom Daily
+
+	at com.library.LibrarySpec.test toString(LibrarySpec.groovy:25)
+2015-03-30 17:07:49,787 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+library.toString()=='Sheffield,C# for dummies,David Green,Tom Daily'
+|       |         |
+|       |         false
+|       |         3 differences (93% similarity)
+|       |         Sheffield,( )C# for dummies,( )David Green,( )Tom Daily
+|       |         Sheffield,(-)C# for dummies,(-)David Green,(-)Tom Daily
+|       Sheffield, C# for dummies, David Green, Tom Daily
+Sheffield, C# for dummies, David Green, Tom Daily
+
+	at com.library.LibrarySpec.test toString(LibrarySpec.groovy:25)
+2015-03-30 17:07:49,837 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+library.toString()=='Sheffield,C# for dummies,David Green,Tom Daily'
+|       |         |
+|       |         false
+|       |         3 differences (93% similarity)
+|       |         Sheffield,( )C# for dummies,( )David Green,( )Tom Daily
+|       |         Sheffield,(-)C# for dummies,(-)David Green,(-)Tom Daily
+|       Sheffield, C# for dummies, David Green, Tom Daily
+Sheffield, C# for dummies, David Green, Tom Daily
+
+	at com.library.LibrarySpec.test toString(LibrarySpec.groovy:25)
+2015-03-30 17:07:49,838 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+library.toString()=='Sheffield,C# for dummies,David Green,Tom Daily'
+|       |         |
+|       |         false
+|       |         3 differences (93% similarity)
+|       |         Sheffield,( )C# for dummies,( )David Green,( )Tom Daily
+|       |         Sheffield,(-)C# for dummies,(-)David Green,(-)Tom Daily
+|       Sheffield, C# for dummies, David Green, Tom Daily
+Sheffield, C# for dummies, David Green, Tom Daily
+
+	at com.library.LibrarySpec.test toString(LibrarySpec.groovy:25)
+2015-03-30 17:20:03,113 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (48% similarity)
+|      |         Web Systems Design(-------------------)
+|      |         Web Systems Design(, WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:20:03,131 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (48% similarity)
+|      |         Web Systems Design(-------------------)
+|      |         Web Systems Design(, WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:20:03,133 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (48% similarity)
+|      |         Web Systems Design(-------------------)
+|      |         Web Systems Design(, WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:20:03,133 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (48% similarity)
+|      |         Web Systems Design(-------------------)
+|      |         Web Systems Design(, WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:20:03,165 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (48% similarity)
+|      |         Web Systems Design(-------------------)
+|      |         Web Systems Design(, WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:20:03,165 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (48% similarity)
+|      |         Web Systems Design(-------------------)
+|      |         Web Systems Design(, WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:25:13,603 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:25:13,618 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:25:13,621 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:25:13,621 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:25:13,658 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:25:13,659 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101,Computing'
+|      |         |
+|      |         false
+|      |         17 differences (51% similarity)
+|      |         Web Systems Design(-----------------)
+|      |         Web Systems Design(,WSD101,Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:28:45,907 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101, Computing'
+|      |         |
+|      |         false
+|      |         18 differences (50% similarity)
+|      |         Web Systems Design(------------------)
+|      |         Web Systems Design(,WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:28:45,931 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101, Computing'
+|      |         |
+|      |         false
+|      |         18 differences (50% similarity)
+|      |         Web Systems Design(------------------)
+|      |         Web Systems Design(,WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:28:45,935 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101, Computing'
+|      |         |
+|      |         false
+|      |         18 differences (50% similarity)
+|      |         Web Systems Design(------------------)
+|      |         Web Systems Design(,WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:28:45,936 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101, Computing'
+|      |         |
+|      |         false
+|      |         18 differences (50% similarity)
+|      |         Web Systems Design(------------------)
+|      |         Web Systems Design(,WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:28:45,967 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101, Computing'
+|      |         |
+|      |         false
+|      |         18 differences (50% similarity)
+|      |         Web Systems Design(------------------)
+|      |         Web Systems Design(,WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:28:45,967 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WSD101, Computing'
+|      |         |
+|      |         false
+|      |         18 differences (50% similarity)
+|      |         Web Systems Design(------------------)
+|      |         Web Systems Design(,WSD101, Computing)
+|      Web Systems Design
+Web Systems Design
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:24)
+2015-03-30 17:35:35,014 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (36% similarity)
+|      |         Web Systems(-------------------)
+|      |         Web Systems(, WSD101, Computing)
+|      Web Systems
+Web Systems
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 17:35:35,030 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (36% similarity)
+|      |         Web Systems(-------------------)
+|      |         Web Systems(, WSD101, Computing)
+|      Web Systems
+Web Systems
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 17:35:35,033 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (36% similarity)
+|      |         Web Systems(-------------------)
+|      |         Web Systems(, WSD101, Computing)
+|      Web Systems
+Web Systems
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 17:35:35,033 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (36% similarity)
+|      |         Web Systems(-------------------)
+|      |         Web Systems(, WSD101, Computing)
+|      Web Systems
+Web Systems
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 17:35:35,071 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (36% similarity)
+|      |         Web Systems(-------------------)
+|      |         Web Systems(, WSD101, Computing)
+|      Web Systems
+Web Systems
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 17:35:35,071 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems, WSD101, Computing'
+|      |         |
+|      |         false
+|      |         19 differences (36% similarity)
+|      |         Web Systems(-------------------)
+|      |         Web Systems(, WSD101, Computing)
+|      Web Systems
+Web Systems
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:29)
+2015-03-30 17:37:46,778 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems, WSD101'
+|      |         |
+|      |         false
+|      |         8 differences (57% similarity)
+|      |         Web Systems(--------)
+|      |         Web Systems(, WSD101)
+|      Web Systems
+Web Systems
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 17:37:46,791 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems, WSD101'
+|      |         |
+|      |         false
+|      |         8 differences (57% similarity)
+|      |         Web Systems(--------)
+|      |         Web Systems(, WSD101)
+|      Web Systems
+Web Systems
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 17:37:46,799 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems, WSD101'
+|      |         |
+|      |         false
+|      |         8 differences (57% similarity)
+|      |         Web Systems(--------)
+|      |         Web Systems(, WSD101)
+|      Web Systems
+Web Systems
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 17:37:46,800 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems, WSD101'
+|      |         |
+|      |         false
+|      |         8 differences (57% similarity)
+|      |         Web Systems(--------)
+|      |         Web Systems(, WSD101)
+|      Web Systems
+Web Systems
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 17:37:46,829 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems, WSD101'
+|      |         |
+|      |         false
+|      |         8 differences (57% similarity)
+|      |         Web Systems(--------)
+|      |         Web Systems(, WSD101)
+|      Web Systems
+Web Systems
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 17:37:46,829 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems, WSD101'
+|      |         |
+|      |         false
+|      |         8 differences (57% similarity)
+|      |         Web Systems(--------)
+|      |         Web Systems(, WSD101)
+|      Web Systems
+Web Systems
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 17:41:58,810 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:41:58,826 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:41:58,830 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:41:58,831 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:41:58,869 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:41:58,869 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green,David.green@shu.ac.uk,B7676784,Web Systems Design'
+|       |         |
+|       |         false
+|       |         50 differences (18% similarity)
+|       |         David Green(--------------------------------------------------)
+|       |         David Green(,David.green@shu.ac.uk,B7676784,Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:43:56,298 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         53 differences (17% similarity)
+|       |         David Green(-----------------------------------------------------)
+|       |         David Green(, David.green@shu.ac.uk, B7676784, Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:43:56,314 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         53 differences (17% similarity)
+|       |         David Green(-----------------------------------------------------)
+|       |         David Green(, David.green@shu.ac.uk, B7676784, Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:43:56,321 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         53 differences (17% similarity)
+|       |         David Green(-----------------------------------------------------)
+|       |         David Green(, David.green@shu.ac.uk, B7676784, Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:43:56,321 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         53 differences (17% similarity)
+|       |         David Green(-----------------------------------------------------)
+|       |         David Green(, David.green@shu.ac.uk, B7676784, Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:43:56,363 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         53 differences (17% similarity)
+|       |         David Green(-----------------------------------------------------)
+|       |         David Green(, David.green@shu.ac.uk, B7676784, Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:43:56,363 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         53 differences (17% similarity)
+|       |         David Green(-----------------------------------------------------)
+|       |         David Green(, David.green@shu.ac.uk, B7676784, Web Systems Design)
+|       David Green
+David Green
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:47:33,702 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         21 differences (67% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(null---------------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Systems Design)
+|       David Green,David.green@shu.ac.uk,B7676784,null
+David Green,David.green@shu.ac.uk,B7676784,null
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:47:33,723 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         21 differences (67% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(null---------------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Systems Design)
+|       David Green,David.green@shu.ac.uk,B7676784,null
+David Green,David.green@shu.ac.uk,B7676784,null
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:47:33,728 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         21 differences (67% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(null---------------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Systems Design)
+|       David Green,David.green@shu.ac.uk,B7676784,null
+David Green,David.green@shu.ac.uk,B7676784,null
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:47:33,728 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         21 differences (67% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(null---------------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Systems Design)
+|       David Green,David.green@shu.ac.uk,B7676784,null
+David Green,David.green@shu.ac.uk,B7676784,null
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:47:33,770 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         21 differences (67% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(null---------------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Systems Design)
+|       David Green,David.green@shu.ac.uk,B7676784,null
+David Green,David.green@shu.ac.uk,B7676784,null
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:47:33,771 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         21 differences (67% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(null---------------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Systems Design)
+|       David Green,David.green@shu.ac.uk,B7676784,null
+David Green,David.green@shu.ac.uk,B7676784,null
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:49:37,823 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         19 differences (70% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(Cour---)s(-)e(---------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Sy)s(t)e(ms Design)
+|       David Green,David.green@shu.ac.uk,B7676784,Course
+David Green,David.green@shu.ac.uk,B7676784,Course
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:49:37,840 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         19 differences (70% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(Cour---)s(-)e(---------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Sy)s(t)e(ms Design)
+|       David Green,David.green@shu.ac.uk,B7676784,Course
+David Green,David.green@shu.ac.uk,B7676784,Course
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:49:37,847 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         19 differences (70% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(Cour---)s(-)e(---------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Sy)s(t)e(ms Design)
+|       David Green,David.green@shu.ac.uk,B7676784,Course
+David Green,David.green@shu.ac.uk,B7676784,Course
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:49:37,848 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         19 differences (70% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(Cour---)s(-)e(---------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Sy)s(t)e(ms Design)
+|       David Green,David.green@shu.ac.uk,B7676784,Course
+David Green,David.green@shu.ac.uk,B7676784,Course
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:49:37,898 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         19 differences (70% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(Cour---)s(-)e(---------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Sy)s(t)e(ms Design)
+|       David Green,David.green@shu.ac.uk,B7676784,Course
+David Green,David.green@shu.ac.uk,B7676784,Course
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:49:37,898 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         19 differences (70% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(Cour---)s(-)e(---------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Sy)s(t)e(ms Design)
+|       David Green,David.green@shu.ac.uk,B7676784,Course
+David Green,David.green@shu.ac.uk,B7676784,Course
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:53:36,966 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         21 differences (67% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(null---------------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Systems Design)
+|       David Green,David.green@shu.ac.uk,B7676784,null
+David Green,David.green@shu.ac.uk,B7676784,null
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:53:36,982 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         21 differences (67% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(null---------------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Systems Design)
+|       David Green,David.green@shu.ac.uk,B7676784,null
+David Green,David.green@shu.ac.uk,B7676784,null
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:53:36,993 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         21 differences (67% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(null---------------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Systems Design)
+|       David Green,David.green@shu.ac.uk,B7676784,null
+David Green,David.green@shu.ac.uk,B7676784,null
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:53:36,994 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         21 differences (67% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(null---------------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Systems Design)
+|       David Green,David.green@shu.ac.uk,B7676784,null
+David Green,David.green@shu.ac.uk,B7676784,null
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:53:37,038 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         21 differences (67% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(null---------------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Systems Design)
+|       David Green,David.green@shu.ac.uk,B7676784,null
+David Green,David.green@shu.ac.uk,B7676784,null
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:53:37,039 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784, Web Systems Design'
+|       |         |
+|       |         false
+|       |         21 differences (67% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784,(null---------------)
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784,( Web Systems Design)
+|       David Green,David.green@shu.ac.uk,B7676784,null
+David Green,David.green@shu.ac.uk,B7676784,null
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:25)
+2015-03-30 17:55:32,486 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784'
+|       |         |
+|       |         false
+|       |         2 differences (95% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784
+|       David Green,David.green@shu.ac.uk,B7676784
+David Green,David.green@shu.ac.uk,B7676784
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:24)
+2015-03-30 17:55:32,502 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784'
+|       |         |
+|       |         false
+|       |         2 differences (95% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784
+|       David Green,David.green@shu.ac.uk,B7676784
+David Green,David.green@shu.ac.uk,B7676784
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:24)
+2015-03-30 17:55:32,505 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784'
+|       |         |
+|       |         false
+|       |         2 differences (95% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784
+|       David Green,David.green@shu.ac.uk,B7676784
+David Green,David.green@shu.ac.uk,B7676784
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:24)
+2015-03-30 17:55:32,505 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784'
+|       |         |
+|       |         false
+|       |         2 differences (95% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784
+|       David Green,David.green@shu.ac.uk,B7676784
+David Green,David.green@shu.ac.uk,B7676784
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:24)
+2015-03-30 17:55:32,540 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784'
+|       |         |
+|       |         false
+|       |         2 differences (95% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784
+|       David Green,David.green@shu.ac.uk,B7676784
+David Green,David.green@shu.ac.uk,B7676784
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:24)
+2015-03-30 17:55:32,540 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784'
+|       |         |
+|       |         false
+|       |         2 differences (95% similarity)
+|       |         David Green,(-)David.green@shu.ac.uk,(-)B7676784
+|       |         David Green,( )David.green@shu.ac.uk,( )B7676784
+|       David Green,David.green@shu.ac.uk,B7676784
+David Green,David.green@shu.ac.uk,B7676784
+
+	at com.library.StudentSpec.test toString(StudentSpec.groovy:24)
+2015-03-30 18:02:42,206 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design, WDS101, Computing'
+|      |         |
+|      |         false
+|      |         4 differences (89% similarity)
+|      |         Web Systems Design,(-)W(S)D(-)101,(-)Computing
+|      |         Web Systems Design,( )W(-)D(S)101,( )Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:02:42,226 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design, WDS101, Computing'
+|      |         |
+|      |         false
+|      |         4 differences (89% similarity)
+|      |         Web Systems Design,(-)W(S)D(-)101,(-)Computing
+|      |         Web Systems Design,( )W(-)D(S)101,( )Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:02:42,229 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WDS101, Computing'
+|      |         |
+|      |         false
+|      |         4 differences (89% similarity)
+|      |         Web Systems Design,(-)W(S)D(-)101,(-)Computing
+|      |         Web Systems Design,( )W(-)D(S)101,( )Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:02:42,229 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WDS101, Computing'
+|      |         |
+|      |         false
+|      |         4 differences (89% similarity)
+|      |         Web Systems Design,(-)W(S)D(-)101,(-)Computing
+|      |         Web Systems Design,( )W(-)D(S)101,( )Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:02:42,257 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WDS101, Computing'
+|      |         |
+|      |         false
+|      |         4 differences (89% similarity)
+|      |         Web Systems Design,(-)W(S)D(-)101,(-)Computing
+|      |         Web Systems Design,( )W(-)D(S)101,( )Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:02:42,258 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WDS101, Computing'
+|      |         |
+|      |         false
+|      |         4 differences (89% similarity)
+|      |         Web Systems Design,(-)W(S)D(-)101,(-)Computing
+|      |         Web Systems Design,( )W(-)D(S)101,( )Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:03:51,195 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WDS101,Computing'
+|      |         |
+|      |         false
+|      |         2 differences (94% similarity)
+|      |         Web Systems Design,W(S)D(-)101,Computing
+|      |         Web Systems Design,W(-)D(S)101,Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:03:51,213 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WDS101,Computing'
+|      |         |
+|      |         false
+|      |         2 differences (94% similarity)
+|      |         Web Systems Design,W(S)D(-)101,Computing
+|      |         Web Systems Design,W(-)D(S)101,Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:03:51,219 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WDS101,Computing'
+|      |         |
+|      |         false
+|      |         2 differences (94% similarity)
+|      |         Web Systems Design,W(S)D(-)101,Computing
+|      |         Web Systems Design,W(-)D(S)101,Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:03:51,219 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WDS101,Computing'
+|      |         |
+|      |         false
+|      |         2 differences (94% similarity)
+|      |         Web Systems Design,W(S)D(-)101,Computing
+|      |         Web Systems Design,W(-)D(S)101,Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:03:51,245 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WDS101,Computing'
+|      |         |
+|      |         false
+|      |         2 differences (94% similarity)
+|      |         Web Systems Design,W(S)D(-)101,Computing
+|      |         Web Systems Design,W(-)D(S)101,Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:03:51,249 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WDS101,Computing'
+|      |         |
+|      |         false
+|      |         2 differences (94% similarity)
+|      |         Web Systems Design,W(S)D(-)101,Computing
+|      |         Web Systems Design,W(-)D(S)101,Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:06:25,542 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WDS101,Computing'
+|      |         |
+|      |         false
+|      |         2 differences (94% similarity)
+|      |         Web Systems Design,W(S)D(-)101,Computing
+|      |         Web Systems Design,W(-)D(S)101,Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:06:25,566 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design,WDS101,Computing'
+|      |         |
+|      |         false
+|      |         2 differences (94% similarity)
+|      |         Web Systems Design,W(S)D(-)101,Computing
+|      |         Web Systems Design,W(-)D(S)101,Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:06:25,571 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WDS101,Computing'
+|      |         |
+|      |         false
+|      |         2 differences (94% similarity)
+|      |         Web Systems Design,W(S)D(-)101,Computing
+|      |         Web Systems Design,W(-)D(S)101,Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:06:25,571 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WDS101,Computing'
+|      |         |
+|      |         false
+|      |         2 differences (94% similarity)
+|      |         Web Systems Design,W(S)D(-)101,Computing
+|      |         Web Systems Design,W(-)D(S)101,Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:06:25,593 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WDS101,Computing'
+|      |         |
+|      |         false
+|      |         2 differences (94% similarity)
+|      |         Web Systems Design,W(S)D(-)101,Computing
+|      |         Web Systems Design,W(-)D(S)101,Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:06:25,593 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design,WDS101,Computing'
+|      |         |
+|      |         false
+|      |         2 differences (94% similarity)
+|      |         Web Systems Design,W(S)D(-)101,Computing
+|      |         Web Systems Design,W(-)D(S)101,Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:09:56,443 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design, WDS101, Computing'
+|      |         |
+|      |         false
+|      |         4 differences (89% similarity)
+|      |         Web Systems Design,(-)W(S)D(-)101,(-)Computing
+|      |         Web Systems Design,( )W(-)D(S)101,( )Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:09:56,454 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+course.toString()=='Web Systems Design, WDS101, Computing'
+|      |         |
+|      |         false
+|      |         4 differences (89% similarity)
+|      |         Web Systems Design,(-)W(S)D(-)101,(-)Computing
+|      |         Web Systems Design,( )W(-)D(S)101,( )Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:09:56,459 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WDS101, Computing'
+|      |         |
+|      |         false
+|      |         4 differences (89% similarity)
+|      |         Web Systems Design,(-)W(S)D(-)101,(-)Computing
+|      |         Web Systems Design,( )W(-)D(S)101,( )Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:09:56,459 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WDS101, Computing'
+|      |         |
+|      |         false
+|      |         4 differences (89% similarity)
+|      |         Web Systems Design,(-)W(S)D(-)101,(-)Computing
+|      |         Web Systems Design,( )W(-)D(S)101,( )Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:09:56,489 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WDS101, Computing'
+|      |         |
+|      |         false
+|      |         4 differences (89% similarity)
+|      |         Web Systems Design,(-)W(S)D(-)101,(-)Computing
+|      |         Web Systems Design,( )W(-)D(S)101,( )Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:09:56,489 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+course.toString()=='Web Systems Design, WDS101, Computing'
+|      |         |
+|      |         false
+|      |         4 differences (89% similarity)
+|      |         Web Systems Design,(-)W(S)D(-)101,(-)Computing
+|      |         Web Systems Design,( )W(-)D(S)101,( )Computing
+|      Web Systems Design,WSD101,Computing
+Web Systems Design,WSD101,Computing
+
+	at com.library.CourseSpec.test toString(CourseSpec.groovy:27)
+2015-03-30 18:15:13,829 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+book.toString()=='Web Design,Geff Tommy,CF88878464,David Green'
+|    |         |
+|    |         false
+|    |         11 differences (75% similarity)
+|    |         Web Design,Geff Tommy,CF88878464,(null-------)
+|    |         Web Design,Geff Tommy,CF88878464,(David Green)
+|    Web Design,Geff Tommy,CF88878464,null
+Web Design,Geff Tommy,CF88878464,null
+
+	at com.library.BookSpec.test toString(BookSpec.groovy:26)
+2015-03-30 18:15:13,849 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+book.toString()=='Web Design,Geff Tommy,CF88878464,David Green'
+|    |         |
+|    |         false
+|    |         11 differences (75% similarity)
+|    |         Web Design,Geff Tommy,CF88878464,(null-------)
+|    |         Web Design,Geff Tommy,CF88878464,(David Green)
+|    Web Design,Geff Tommy,CF88878464,null
+Web Design,Geff Tommy,CF88878464,null
+
+	at com.library.BookSpec.test toString(BookSpec.groovy:26)
+2015-03-30 18:15:13,855 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+book.toString()=='Web Design,Geff Tommy,CF88878464,David Green'
+|    |         |
+|    |         false
+|    |         11 differences (75% similarity)
+|    |         Web Design,Geff Tommy,CF88878464,(null-------)
+|    |         Web Design,Geff Tommy,CF88878464,(David Green)
+|    Web Design,Geff Tommy,CF88878464,null
+Web Design,Geff Tommy,CF88878464,null
+
+	at com.library.BookSpec.test toString(BookSpec.groovy:26)
+2015-03-30 18:15:13,855 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+book.toString()=='Web Design,Geff Tommy,CF88878464,David Green'
+|    |         |
+|    |         false
+|    |         11 differences (75% similarity)
+|    |         Web Design,Geff Tommy,CF88878464,(null-------)
+|    |         Web Design,Geff Tommy,CF88878464,(David Green)
+|    Web Design,Geff Tommy,CF88878464,null
+Web Design,Geff Tommy,CF88878464,null
+
+	at com.library.BookSpec.test toString(BookSpec.groovy:26)
+2015-03-30 18:15:13,892 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+book.toString()=='Web Design,Geff Tommy,CF88878464,David Green'
+|    |         |
+|    |         false
+|    |         11 differences (75% similarity)
+|    |         Web Design,Geff Tommy,CF88878464,(null-------)
+|    |         Web Design,Geff Tommy,CF88878464,(David Green)
+|    Web Design,Geff Tommy,CF88878464,null
+Web Design,Geff Tommy,CF88878464,null
+
+	at com.library.BookSpec.test toString(BookSpec.groovy:26)
+2015-03-30 18:15:13,892 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+book.toString()=='Web Design,Geff Tommy,CF88878464,David Green'
+|    |         |
+|    |         false
+|    |         11 differences (75% similarity)
+|    |         Web Design,Geff Tommy,CF88878464,(null-------)
+|    |         Web Design,Geff Tommy,CF88878464,(David Green)
+|    Web Design,Geff Tommy,CF88878464,null
+Web Design,Geff Tommy,CF88878464,null
+
+	at com.library.BookSpec.test toString(BookSpec.groovy:26)

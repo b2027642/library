@@ -21,7 +21,7 @@ when:"A Book has title, author,isbn and student"
 def book=new Book(title:'Web Design',
 	author:'Geff Tommy',
 	isbn:'CF88878464',
-	Student:'David Green')
+	student:'David Green')
 then:"the to String method will merge them."
 book.toString()=='Web Design,Geff Tommy,CF88878464,David Green'
 

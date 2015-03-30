@@ -16,15 +16,15 @@ class CourseSpec extends Specification {
     }
 
     void "test toString"() {
+when:"A Course has title,code and department"
 
-	When:"A Couser has title, code and depatment"
-	def course=new Course(title:'Web Systems Design',
-		code:'WSD101',
-		department:'Computing')
+def course=new Course(title:'Web Systems Design',
+	code:'WSD101',
+	department:'Computing')
 
 then:"the to String method will merge them."
-course.toString()=='"3b Systems Design, WSD101, Computing'
 
+course.toString()=='Web Systems Design,WSD101,Computing'
 
 
     }

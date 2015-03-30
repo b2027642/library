@@ -1,4 +1,4 @@
-package com/library
+package com.library
 
 import grails.test.mixin.TestFor
 import spock.lang.Specification
@@ -16,13 +16,13 @@ class LibrarySpec extends Specification {
     }
 
     void "test toString"() {
-when:"A Library has location, book,studnt and librarian"
+when:"A Library has location, book,student and librarian"
 def library=new Library(location:'Sheffield',
 	book:'C# for dummies',
 	student:'David Green',
 	librarian:'Tom Daily')
 then:"the to String method will merge them."
-library.toString()=='Sheffield,C# for dummies,David Green,Tom Daily'
+library.toString()=='Sheffield, C# for dummies, David Green, Tom Daily'
 
     }
 }

@@ -1,4 +1,4 @@
-package com/library
+package com.library
 
 import grails.test.mixin.TestFor
 import spock.lang.Specification
@@ -16,13 +16,12 @@ class StudentSpec extends Specification {
     }
 
     void "test toString"() {
-when:"A Student has name, email,studentId and course"
+when:"A Student has name, email and studentId"
 def student=new Student(name:'David Green',
 	email:'David.green@shu.ac.uk',
-	studentId:'B7676784',
-	course:'Web Systems Design')
+	studentId:'B7676784')
 then:"the to String method will merge them."
-student.toString()=='David Green,David.green@shu.ac.uk,B7676784Web Systems Design'
+student.toString()=='David Green, David.green@shu.ac.uk, B7676784'
 
     }
 }
