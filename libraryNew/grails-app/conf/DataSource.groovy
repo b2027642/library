@@ -1,7 +1,6 @@
 dataSource {
     pooled = true
-    jmxExport = true
-    driverClassName = "org.h2.Driver"
+    driverClassName = "com.mysql.jdbc.Driver"
     username = "root"
     password = "password"
 }
@@ -21,7 +20,7 @@ environments {
             dbCreate = "update" // one of 'create', 'create-drop',
 // 'update', 'validate', ''
             
-url = "jdbc:mysql://localhost:3306/studentenrol"
+url = "jdbc:mysql://localhost:3306/librarynew"
         }
     }
     test {
