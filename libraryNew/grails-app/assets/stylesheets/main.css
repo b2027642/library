@@ -6,12 +6,13 @@ input, select, textarea {
 
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.1;
+	text-align:center;
 }
 
 /* BASE LAYOUT */
 
 html {
-	background-color: #ddd;
+	background-color: #ffffff;
 	background-image: -moz-linear-gradient(center top, #aaa, #ddd);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #aaa), color-stop(1, #ddd));
 	background-image: linear-gradient(top, #aaa, #ddd);
@@ -48,7 +49,7 @@ body {
 }
 
 #grailsLogo {
-	background-color: #abbf78;
+	background-color: #404040;
 }
 
 /* replace with .no-boxshadow body if you have modernizr available */
@@ -90,8 +91,16 @@ img {
 /* GENERAL */
 
 #grailsLogo a {
-	display: inline-block;
-	margin: 1em;
+
+background: red;
+padding: 10px;
+color: white;
+border-radius: 4px;
+text-decoration: none;
+font-size: 18px;
+display: inline-block;
+margin: 1px;
+
 }
 
 .content {
@@ -528,8 +537,9 @@ th:hover, tr:hover {
 	   -moz-box-shadow: 0 0 3px 1px #aaaaaa;
 	-webkit-box-shadow: 0 0 3px 1px #aaaaaa;
 	        box-shadow: 0 0 3px 1px #aaaaaa;
-	margin: 0.1em 0 0 0;
+	
 	border: none;
+	margin: 330px;
 }
 
 .buttons input,

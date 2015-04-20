@@ -13,6 +13,7 @@
 
 They give you a creative study environment with a range of library resources and services, all designed to meet your needs.</p>
 		</div>
+		<br>
 
 
 		<div class="homeCell">
@@ -22,6 +23,9 @@ They give you a creative study environment with a range of library resources and
 		<g:link controller="course" action="index">Add Course</g:link>
 		</span>
 		</div>
+		<br>
+		<hr>
+		<br>
 
 		<div class="homeCell">
 		<h3> Add a  Student</h3>
@@ -30,6 +34,9 @@ They give you a creative study environment with a range of library resources and
 		<g:link controller="student" action="create">Add Student</g:link>
 		</span>
 		</div>
+		<br>
+		<hr>
+		<br>
 
 		<div class="homeCell">
 		<h3> Add a  Book</h3>
@@ -38,6 +45,9 @@ They give you a creative study environment with a range of library resources and
 		<g:link controller="book" action="create">Add Book</g:link>
 		</span>
 		</div>
+		<br>
+		<hr>
+		<br>
 
 		<div class="homeCell">
 		<h3> Add a  Librarian</h3>
@@ -46,6 +56,9 @@ They give you a creative study environment with a range of library resources and
 		<g:link controller="librarian" action="create">Add Librarian</g:link>
 		</span>
 		</div>
+		<br>
+		<hr>
+		<br>
 
 		<div class="homeCell">
 		<h3> Add a  Library</h3>
@@ -53,5 +66,6 @@ They give you a creative study environment with a range of library resources and
 		<span class="buttons">
 		<g:link controller="library" action="create">Add Library</g:link>
 		</span>
-		</div
+		</div>
+		<br>
 

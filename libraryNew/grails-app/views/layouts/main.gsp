@@ -17,7 +17,7 @@
 		<g:layoutHead/>
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner"><a href="http://grails.org"><img src="${resource(dir:'images',file:'logo.fw.png')}"alt="Booking Systems" height="40px" width="40px"/></a>
+		<div id="grailsLogo" role="banner"><a href="http://grails.org"><img src="${resource(dir:'images',file:'logo.fw.png')}"alt="Booking Systems" height="" width=""/></a>
 <g:loginToggle />
 </div>
 		<g:layoutBody/>
